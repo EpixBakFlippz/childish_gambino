@@ -1,0 +1,713 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: radial-gradient(rgba(255,211,0,1) 5%, rgba(255,0,123,1) 95%);
+}
+
+
+#biggy-bino {
+	font-family: Heebo;
+	font-size: 100px;
+	padding-top: 18%;
+	padding-left: 18%;
+	margin-top: 0;
+	background-size: 100px;
+	background: -webkit-linear-gradient(rgba(255,255,0,1) 0%, rgba(0,255,0,1) 20%, rgba(0,255,255,1) 40%, rgba(255,0,0,1) 60%, rgba(0,0,255,1) 80%, rgba(255,0,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-attachment: fixed;
+}
+
+.hero {
+	height: 100vh;
+	background-repeat: no-repeat;
+  	background-image: url("head-bino.jpeg");
+  	background-attachment: fixed;
+  	
+}
+
+.nav-bar {
+	background-image: url(gambino-hdr-2.png);
+	height: 16.4vh;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	transition:  0.3s;
+	flex-shrink: 0.2s;
+}
+
+.nav-bttns {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Staatliches;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-around;
+	letter-spacing: 3px;
+	margin-top: 1%;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+ 
+
+#trs-lbms {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#abt-scl {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#trs-nav {
+	background: linear-gradient(150deg, rgba(255,211,0,1) 35%, rgba(255,0,123,1) 65%);
+	border-radius: 25px;
+	width: 30%;
+	margin-left: -5%;
+	
+}
+
+#albms-nav {
+	background: linear-gradient(248deg, rgba(255,211,0,1) 35%, rgba(255,0,123,1) 65%);
+	border-radius: 25px;
+	width: 30%;
+	margin-left: 10%;
+}
+
+#abt-nav {
+	background: linear-gradient(50deg, rgba(255,211,0,1) 35%, rgba(255,0,123,1) 65%);
+	border-radius: 25px;
+	width: 30%;
+	
+}
+
+#scls-nav {
+	background: linear-gradient(310deg, rgba(255,211,0,1) 35%, rgba(255,0,123,1) 65%);
+	border-radius: 25px;
+	width: 30%;
+	
+}
+
+#myBtn {
+	position: fixed;
+	bottom: 50px;
+	right: 70px;
+	border: none;
+	animation: glow-btn 10s linear 0s infinite normal;
+	width: 3%;
+	background-color: #ffffff;
+	height: 6.5%;
+	border-radius: 1000px;
+	transition: ease-out 0.2s;
+}
+
+
+#myBtn:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.2s;
+}
+
+.tours-holder {
+	display: flex;
+	justify-content: space-around;
+}
+
+.tours-one {
+
+}
+
+.tours-two {
+
+}
+
+.tour {
+	margin-top: 30px;
+	padding: 4px 9px;
+	box-shadow: 0px 0px 10px #ffffff;
+	border-radius: 30px;
+	background: linear-gradient(45deg, rgba(255,190,0,0.8) 25%, rgba(255,0,110,0.8) 75%);
+	transition: ease-out 0.2s;
+}
+.tour:hover {
+	transform: scale(1.1);
+	transition: ease-in 0.2s;
+}
+
+#tour-btn {
+	font-family: Staatliches;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#place {
+ display: flex;
+ justify-content: center;
+}
+
+#date {
+ display: flex;
+ justify-content: center;
+}
+
+
+
+.tours-dates {
+	background-image: url(gambino_pic_fulr.png);
+	background-size: 100% auto;
+	height: 100vh;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.albums {
+	background-image: url(childish_very.jpeg);
+	background-size: 100% auto;
+	height: 100vh;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+#myCarousel {
+
+}
+
+.sng-cvrs {
+
+	
+}
+
+
+#albms-cvrs {
+	display: flex;
+	justify-content: center;
+	padding-top: 9%;
+}
+
+#sngls-eps {
+	display: flex;
+	justify-content: center;
+	padding-top: 3%;
+}
+
+#myCarousel .carousel-inner .item {
+	padding-left: 1%;
+	padding-right: 1%;
+	transition: ease-out 0.2s;
+}
+
+#myCarousel .carousel-inner .item img {
+	width: 200px;
+	border-radius: 30px;
+	animation: glow 10s linear 0s infinite normal;
+}
+
+#myCarousel .carousel-inner .item:hover {
+	transform: scale(1.1);
+	transition: ease-in 0.2s;
+}
+
+.sr-only {
+	
+}
+
+
+.about {
+	background-image: url(about_back.jpeg);
+	background-size: 100% auto;
+	height: 100vh;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+	
+}
+
+.bio {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+}
+
+.bio-txt {
+	width: 30%;
+	border-radius: 30px;
+	margin-top: 5%;
+	padding: 3px 5px;
+	background: linear-gradient(135deg, rgba(190,255,0,0.8) 25%, rgba(0,25,225,0.8) 75%);
+}
+
+#abt-gmbn-hdr {
+	font-family: Staatliches;
+	color: #ffffff;
+	font-size: 65px;
+	text-align: center;
+}
+
+#gmbn-bio-txt {
+	font-family: Staatliches;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+
+#bio-pc {
+	border-radius: 30px;
+	width: 35%;
+	height: 35%;
+	margin-top: 5%;
+	animation: glowing 10s linear 0s infinite normal;
+}
+
+
+.socials {
+	background-image: url(scls_back.jpeg);
+	background-size: 110% auto;
+	height: 100vh;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: space-around;
+}
+
+.email-signup {
+	width: 35%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 4px 6px;
+	border-radius: 30px;
+	margin-top: 5%;
+	margin-bottom: 0;
+	background: linear-gradient(45deg, rgba(97,255,0,0.8) 25%, rgba(255,0,204,0.8) 75%);
+}
+
+#eml-sgnp-hdr {
+	font-family: Staatliches;
+	color: #ffffff;
+	font-size: 65px;
+	margin: 0;
+	padding: 0;
+	margin-top: 4%;
+	text-align: center;
+}
+
+#eml-sgnp-info {
+	font-family: Staatliches;
+	color: #ffffff;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	margin-top: 4%;
+	text-align: center;
+}
+
+#email-text {
+	font-family: Staatliches;
+	color: #0f0f0f;
+	padding: 10px 20px;
+	size: 50%;
+	font-size: 30px;
+	width: 80%;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	border-radius: 30px;
+	border: none;
+	margin-top: 4%;
+	margin-bottom: 0%;
+	margin-left: 25px;
+}
+
+#sbmt-bttn {
+	color: #ffffff;
+	font-family: Staatliches;
+	font-size: 40px;
+	width: 30%;
+	border-radius: 30px;
+	margin-top: 4%;
+	padding: 3px 5px;
+	border: none;
+	background: linear-gradient(45deg, rgba(255,211,0,1) 25%, rgba(255,0,123,1) 75%);
+	margin-left: 175px;
+	margin-bottom: 0%;
+	transition: ease-out 0.3s;
+}
+
+#sbmt-bttn:hover {
+	cursor: pointer;
+	transition: ease-in 0.3s;
+	transform: scale(1.5);
+}
+
+.medias {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+
+
+
+.scl-mdia-logo {
+	max-width: 200px;
+}
+
+#ytb {
+	margin-left: -100%;
+	margin-bottom: 0;
+}
+
+#twtr {
+	margin-bottom: 0;
+}
+
+#inst {
+	margin-left: -100%;
+	margin-bottom: 0;
+}
+
+@keyframes glow {
+
+
+/*0% {box-shadow: #ff0000 0.5px 0.5px 10px}
+6.25% {box-shadow: #ff8400 0.5px 0.5px 10px}
+12.5% {box-shadow: #ffff00 0.5px 0.5px 10px}
+25% {box-shadow: #00ff00 0.5px 0.5px 10px}
+31.25% {box-shadow: #0000ff 0.5px 0.5px 10px}
+37.5% {box-shadow: #4b0082 0.5px 0.5px 10px}
+43.75% {box-shadow: #960cff 0.5px 0.5px 10px}
+50% {box-shadow: #ffffff 0.5px 0.5px 10px}
+56.25% {box-shadow: #ffffff 0.5px 0.5px 10px}
+62.5% {box-shadow: #960cff 0.5px 0.5px 10px}
+68.75% {box-shadow: #4b0082 0.5px 0.5px 10px}
+75% {box-shadow: #0000ff 0.5px 0.5px 10px}
+81.25% {box-shadow: #00ff00 0.5px 0.5px 10px}
+87.5% {box-shadow: #ffff00 0.5px 0.5px 10px}
+93.75% {box-shadow: #ff8400 0.5px 0.5px 10px}
+100% {box-shadow:  #ff0000 0.5px 0.5px 10px}*/
+
+
+	0% {box-shadow:#00ffff 0px 0px 10px;}
+	25% {box-shadow: #ffff00 0px 0px 15px;}
+	50% {box-shadow: #ff00ff 0px 0px 20px;}
+	75% {box-shadow: #ffff00 0px 0px 15px;}
+	100% {box-shadow:#00ffff 0px 0px 10px;}
+}
+
+@keyframes glow-btn {
+	0% {box-shadow: #ff0000 0px 0px 15px}
+	6.25% {box-shadow: #ff8400 0px 0px 15px}
+	12.5% {box-shadow: #ffff00 0px 0px 15px}
+	25% {box-shadow: #00ff00 0px 0px 15px}
+	31.25% {box-shadow: #0000ff 0px 0px 15px}
+	37.5% {box-shadow: #4b0082 0px 0px 15px}
+	43.75% {box-shadow: #960cff 0px 0px 15px}
+	50% {box-shadow: #ffffff 0px 0px 15px}
+	56.25% {box-shadow: #ffffff 0px 0px 15px}
+	62.5% {box-shadow: #960cff 0px 0px 15px}
+	68.75% {box-shadow: #4b0082 0px 0px 15px}
+	75% {box-shadow: #0000ff 0px 0px 15px}
+	81.25% {box-shadow: #00ff00 0px 0px 15px}
+	87.5% {box-shadow: #ffff00 0px 0px 15px}
+	93.75% {box-shadow: #ff8400 0px 0px 15px}
+	100% {box-shadow:  #ff0000 0px 0px 15px}
+}
+@keyframes glowing {
+	0% {box-shadow: #ff0000 0px 0px 15px}
+	6.25% {box-shadow: #ff8400 0px 0px 15px}
+	12.5% {box-shadow: #ffff00 0px 0px 15px}
+	25% {box-shadow: #00ff00 0px 0px 15px}
+	31.25% {box-shadow: #0000ff 0px 0px 15px}
+	37.5% {box-shadow: #4b0082 0px 0px 15px}
+	43.75% {box-shadow: #960cff 0px 0px 15px}
+	50% {box-shadow: #ffffff 0px 0px 15px}
+	56.25% {box-shadow: #ffffff 0px 0px 15px}
+	62.5% {box-shadow: #960cff 0px 0px 15px}
+	68.75% {box-shadow: #4b0082 0px 0px 15px}
+	75% {box-shadow: #0000ff 0px 0px 15px}
+	81.25% {box-shadow: #00ff00 0px 0px 15px}
+	87.5% {box-shadow: #ffff00 0px 0px 15px}
+	93.75% {box-shadow: #ff8400 0px 0px 15px}
+	100% {box-shadow:  #ff0000 0px 0px 15px}
+}
+
+/*Rainbow Glow Box Rules*/
+/*0% {box-shadow: #ff0000 0.5px 0.5px 10px}
+6.25% {box-shadow: #ff8400 0.5px 0.5px 10px}
+12.5% {box-shadow: #ffff00 0.5px 0.5px 10px}
+25% {box-shadow: #00ff00 0.5px 0.5px 10px}
+31.25% {box-shadow: #0000ff 0.5px 0.5px 10px}
+37.5% {box-shadow: #4b0082 0.5px 0.5px 10px}
+43.75% {box-shadow: #960cff 0.5px 0.5px 10px}
+50% {box-shadow: #ffffff 0.5px 0.5px 10px}
+56.25% {box-shadow: #ffffff 0.5px 0.5px 10px}
+62.5% {box-shadow: #960cff 0.5px 0.5px 10px}
+68.75% {box-shadow: #4b0082 0.5px 0.5px 10px}
+75% {box-shadow: #0000ff 0.5px 0.5px 10px}
+81.25% {box-shadow: #00ff00 0.5px 0.5px 10px}
+87.5% {box-shadow: #ffff00 0.5px 0.5px 10px}
+93.75% {box-shadow: #ff8400 0.5px 0.5px 10px}
+100% {box-shadow:  #ff0000 0.5px 0.5px 10px}*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+  .hero {
+  	background-position: center;
+  	background-size: auto 100%;
+  }
+
+  #biggy-bino {
+  	font-size: 90px;
+  	padding-left: 15%;
+  	padding-right: 0%;
+  	padding-top: 35%;
+  	width: 600px;
+  }
+
+  .nav-bar {
+  	display: none;
+  }
+
+  .mobile-nav {
+  	overflow: hidden;
+  	position: sticky;
+  	display: flex;
+  	flex-wrap:  wrap;
+  	top: 0;
+  	z-index: 9999;
+  	background: linear-gradient(150deg, rgba(255,211,0,1) 35%, rgba(255,0,123,1) 65%);
+  	height: 12.5vh;
+  	text-anchor: middle;
+  }
+
+  .mbl-nav {
+  	padding: 0;
+  	margin: 0;
+  }
+
+  #mbl-nav-btns {
+  	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  }
+
+  .mbl-nav-btn {
+  	text-decoration: none;
+  	color: #ffffff;
+  	font-family: Staatliches;
+  	font-size: 25px;
+  	width: 100%;
+  }
+  
+  #trs-mbl {
+ 	width: 25%;
+  	background: ;
+  	text-align: center;
+  }
+
+  #albms-mbl {
+  	width: 25%;
+  	background: ;
+  	text-align: center;
+  }
+
+  #abt-mbl {
+  	width: 25%;
+  	background: ;
+  	text-align: center;
+  }
+
+  #scls-mbl {
+  	width: 25%;
+  	background: ;
+  	text-align: center;
+  }
+
+  #myBtn {
+  	height: 8.75%;
+  	width: 9.75%;
+  	z-index: 999999;
+  	bottom: 20px;
+  	right: 30px;
+  }
+
+  .tours-dates {
+  	background-size: auto 100%;
+  	background-position: center;
+  }
+
+  .tours-holder {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  }
+
+  .tour {
+  	margin-top: 10px;
+  	padding: 1px 3px;
+  	width: 80%;
+  	font-size: 10.38px;
+  	margin: 5px auto;
+  	border-radius: 50px;
+  }
+
+  #place {
+  	font-size: 15px;
+  }
+
+  #date {
+  	font-size: 15px;
+  }
+
+  .albums {
+  	background-size: auto 100%;
+  	background-position: center;
+  }
+  
+  .sng-cvrs {
+  	display: flex;
+  	justify-content: space-around;
+  }
+
+  #albms-cvrs {
+  	display: flex;
+  	flex-direction: column;
+  	padding-top: 3.5%;
+  }
+
+  #sngls-eps {
+  	display: flex;
+  	flex-direction: column;
+  	padding-top: 3.5%;
+  }
+
+  #myCarousel .carousel-inner .item img {
+  	width: 125px;
+  }
+
+  .about {
+  	background-size: auto 100%;
+  	background-position: center;
+  }
+
+  .bio-txt {
+  	width: 40%;
+  }
+
+  #abt-gmbn-hdr {
+  	font-size: 36px;
+  }
+
+  #gmbn-bio-txt {
+  	font-size: 20px;
+  }
+
+  #bio-pc {
+  	width: 40%;
+  }
+
+  .socials {
+  	background-size: auto 100%;
+  	background-position: center;
+  	height: 100vh;
+  	display: flex;
+  	flex-direction: column;
+  }
+
+  .email-signup {
+  	width: 90%;
+  	margin: auto;
+  	margin-top: 4%;
+  	height: 50%;
+  }
+
+  #eml-sgnp-hdr {
+  	font-size: 30px;
+  }
+
+  #eml-sgnp-info {
+  	font-size: 25px;
+  }
+
+  #email-text {
+  	font-size: 25px;
+  	width: 90%;
+  }
+
+  #sbmt-bttn {
+  	font-size: 35px;
+  	width: 80%;
+  	margin-left: 50px;
+  }
+
+  #sbmt-bttn:hover {
+  	transform: none;
+  }
+
+
+  .medias {
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  .scl-mdia-logo {
+  	width: 170px;
+  }
+
+  #ytb {
+  	margin: auto;
+  	margin-top: -6%;
+  }
+
+  #twtr {
+		margin: auto;
+		margin-top: -6%;
+		margin-bottom: 100px;
+  }
+
+  #inst {
+  	margin: auto;
+  	margin-top: -6%;
+  }
+}
