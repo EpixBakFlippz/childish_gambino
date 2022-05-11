@@ -491,7 +491,7 @@ body {
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .hero {
   	background-position: center;
   	background-size: auto 100%;
